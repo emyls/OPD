@@ -1,0 +1,39 @@
+@import 'variable';
+
+#{$appPreffix}{
+  &-info-bar{
+    &-wrapper{
+      min-height:$info-bar-height + px;
+      font-size:14px;
+      color:currentColor;
+    }
+    &-content{
+      padding:12px;
+    }
+    &-subject{
+      font-weight:bold;
+    }
+    &-date{
+      padding-left:5%;
+    }
+    form{
+      float: right;
+    }
+    &-date{
+      text-align: right;
+    }
+  }
+
+
+  &-navbar {
+    font-family: $headings-font-family;
+  }
+
+  &-bg-dark {
+    background-color: $secondary !important;
+  }
+
+  &-border-dark {
+    border-color: $secondary !important;
+  }
+}

@@ -1,0 +1,15 @@
+.opd-my-queue img {
+  border: 1px solid darkcyan;
+  display: block;
+  margin: -1px;
+  overflow: hidden;
+  position: relative;
+  height: 80px;
+  width: 80px;
+  z-index: 0; }
+
+.opd-my-queue-toggle i {
+  margin-left: 50%; }
+
+.opd-my-queue-toggle:hover, .opd-my-queue-toggle:focus {
+  cursor: pointer; }

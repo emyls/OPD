@@ -1,0 +1,27 @@
+@import 'variable';
+
+#{$appPreffix}{
+  &-my-queue {
+    img {
+      //border-radius: 50%;
+      border: 1px solid darkcyan;
+      display: block;
+      margin: -1px;
+      overflow: hidden;
+      position: relative;
+      height: 80px;
+      width: 80px;
+      z-index: 0;
+    }
+
+    &-toggle {
+      i{
+        margin-left: 50%;
+      }
+
+      &:hover, &:focus{
+        cursor: pointer;
+      }
+    }
+  }
+}

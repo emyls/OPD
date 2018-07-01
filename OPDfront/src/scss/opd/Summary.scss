@@ -1,0 +1,8 @@
+@import 'variable';
+
+#{$appPreffix}{
+  &-summary {
+    margin: 12pt;
+    border: 2px solid slategrey;
+  }
+}

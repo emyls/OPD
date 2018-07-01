@@ -1,0 +1,16 @@
+.opd-patients-table-container {
+  padding: 0 20px; }
+  .opd-patients-table-container table {
+    border: 2px solid #888; }
+    .opd-patients-table-container table:hover, .opd-patients-table-container table:focus {
+      cursor: pointer; }
+
+.opd-patients-button-row {
+  padding: 20px; }
+  .opd-patients-button-row div:nth-child(2) {
+    text-align: right; }
+
+.opd-patients-a-Patient img {
+  width: 50%;
+  height: 50%;
+  display: block; }

@@ -1,0 +1,15 @@
+.opd-breadcrumb-wrapper {
+  margin-right: -15px;
+  margin-left: -15px;
+  background-color: #F6F8F8;
+  color: #6D6F72;
+  padding: 12px 25px; }
+
+.opd-breadcrumb-wrapper h1 {
+  font-size: 18px;
+  margin-bottom: 0; }
+
+.opd-breadcrumb-wrapper h3 {
+  font-size: 14px;
+  margin-top: 0;
+  font-weight: 300; }

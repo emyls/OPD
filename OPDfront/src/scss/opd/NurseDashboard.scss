@@ -1,0 +1,53 @@
+@import 'variable';
+
+#{$appPreffix} {
+  &-nurse-dashboard {
+    &-tab-bar{
+        padding: 10px 10px;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #e9e9e9;;
+        padding-bottom: 0;
+
+        &-active-tab{
+          border: none;
+          outline:none;
+          border-bottom: 5px solid $yellow;
+          width:200px;
+          height:40px;
+          background-color: Transparent;
+          cursor:pointer;
+          font-size: 18px;
+          font-weight: normal;
+          font-family: "Open Sans";
+        }
+        &-in-active-tab{
+          width:200px;
+          height:40px;
+          background-color: Transparent;
+          border: none;
+          cursor:pointer;
+          outline:none;
+          font-size: 18px;
+          font-weight: 100;
+          font-family: "Open Sans";
+        }
+      :focus{
+        border: none;
+        outline:none;
+        border-bottom: 5px solid $yellow;
+      }
+    }
+
+    &-tab-container {
+      margin: 5vh 0vh 5vh 0vh;
+      min-height: 48vh;
+
+      h1 {
+        margin-left: 2vh;
+      }
+
+    }
+
+  }
+}

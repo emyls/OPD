@@ -1,0 +1,28 @@
+.opd-info-bar-wrapper {
+  min-height: 40px;
+  font-size: 14px;
+  color: currentColor; }
+
+.opd-info-bar-content {
+  padding: 12px; }
+
+.opd-info-bar-subject {
+  font-weight: bold; }
+
+.opd-info-bar-date {
+  padding-left: 5%; }
+
+.opd-info-bar form {
+  float: right; }
+
+.opd-info-bar-date {
+  text-align: right; }
+
+.opd-navbar {
+  font-family: "Montserrat", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+
+.opd-bg-dark {
+  background-color: #F3969A !important; }
+
+.opd-border-dark {
+  border-color: #F3969A !important; }
